@@ -94,7 +94,7 @@ gui = Tk()
 gui.resizable(width=False,height=False)
 gui.geometry("450x400")
 gui.title("  Instagram scraper By Ratchanon Pheungta")
-gui.iconbitmap(r'C:\Users\tae_t\OneDrive\เดสก์ท็อป\instagram.ico')
+gui.iconbitmap(r'C:\Users\tae_t\OneDrive\เดสก์ท็อป\instagram.ico') #<------------------------------------------------------------------------- แก้ไขที่นี่ (Fix this)
 fontStyle_label = TkFont.Font(family="Lucida Grande", size=26)
 mlabel =Label(text="Instagram scraper \n By Tae",fg="#000",font=fontStyle_label,justify=CENTER,anchor=N,width=15,height=2)
 
